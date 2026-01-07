@@ -16,7 +16,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 st.markdown("<h3 style='text-align: center; font-size: 24px;'>Instacart 상품 재구매 예측</h2>", unsafe_allow_html=True)
 st.title("Instacart 상품 재구매 예측(LSTM)")
 
-DATA_PATH = "../data"  # 필요시 수정
+DATA_PATH = "data_sample"  # 필요시 수정
 
 # -----------------------------
 # 상품명 조회 함수
